@@ -1,0 +1,31 @@
+{
+  "name": "stack-env",
+  "version": "0.1.2",
+  "description": "flexiable configuring env",
+  "main": "index.js",
+  "bin": {
+    "senv": "index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wangpin34/envx.git"
+  },
+  "keywords": [
+    "configuring",
+    "env",
+    "variables"
+  ],
+  "author": "wangpin",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/wangpin34/envx/issues"
+  },
+  "homepage": "https://github.com/wangpin34/envx#readme",
+  "dependencies": {
+    "args": "^5.0.1",
+    "dotenv": "^8.0.0"
+  }
+}
