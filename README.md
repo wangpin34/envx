@@ -14,7 +14,8 @@ Recently I'm working on a react application which is bootstrapped by create-reac
 A cli tool which can read the environment **stack**(value is the name of online env) and load the conrespondding env file. e.g. stack=dev, then it loads variables from file **.senv.dev**. 
 ## Usage
 ```
-  Usage: senx [options] [command]
+  Usage: senv [options] [command]
+  
   Commands:
     help     Display help
     version  Display version
@@ -23,7 +24,7 @@ A cli tool which can read the environment **stack**(value is the name of online 
     -c, --cmd      The command to run
     -f, --file     Choose an env file
     -h, --help     Output usage information
-    -v, --verbose  Full logs
+    -v, --verbose  Print full logs
     -V, --version  Output the version number
 ```
 
