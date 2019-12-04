@@ -7,7 +7,7 @@ const { exec } = require('child_process')
 const cwd = process.cwd()
 const pkg = require(path.join(cwd, './package.json'))
 
-const conf = pkg.senv || {}
+const conf = pkg.senv || { stack: 'stack' }
 const stack = conf.stack
 
 function load(file) {
